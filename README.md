@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo-horizontal-dark.png">
+  <img src="logo-horizontal-light.png" alt="Acta" width="300">
+</picture>
+
 # Acta: instaladores
 
 Versiones firmadas de Acta, la app de escritorio para Windows que graba y transcribe en tu equipo las reuniones de Teams, Google Meet, Zoom y otras apps.
