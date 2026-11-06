@@ -5,7 +5,7 @@
 
 # Acta: descargas
 
-Acta graba tus reuniones y las convierte en actas en tu propio equipo. Transcribe, separa a quién habla, resume, apunta las decisiones y las tareas. El audio no sale de tu ordenador y no hay cuentas ni nube. En **Windows** y en **Android**.
+Grabar y transcribir reuniones en local, en **Windows** y en **Android**: eso hace Acta. Vive en la bandeja, detecta la llamada, transcribe, separa a quién habla y deja el acta con el resumen, las decisiones y las tareas. El audio no sale de tu ordenador y no hay cuentas ni nube.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hoy-oscuro.webp">
