@@ -26,6 +26,7 @@ Este repositorio solo guarda los instaladores. El código no se publica.
 - <img src="assets/icons/microphone.svg" width="20" alt=""> Graba solo. Detecta la llamada en Teams, Meet, Zoom, Webex, Slack y otras apps, y empieza a los 10 segundos de que la app use el micrófono.
 - <img src="assets/icons/users.svg" width="20" alt=""> Separa a los hablantes, también en una sala con un solo micrófono, y aprende la voz de cada persona cuando le pones nombre.
 - <img src="assets/icons/file-text.svg" width="20" alt=""> Deja el acta con el resumen, los acuerdos, los puntos clave, las preguntas abiertas y las tareas con responsable y plazo. Cada cita enlaza con el minuto en que se dijo.
+- <img src="assets/icons/device-desktop.svg" width="20" alt=""> Graba la pantalla con zooms que siguen al ratón, transcribe, pone subtítulos y deja recortar lo que sobra, para hacer un tutorial sin editor aparte.
 - <img src="assets/icons/keyboard.svg" width="20" alt=""> Dicta en cualquier aplicación con un atajo, con un modelo de voz local.
 - <img src="assets/icons/device-mobile.svg" width="20" alt=""> El móvil graba con la pantalla apagada, transcribe en el teléfono y se empareja con el PC por la red local.
 - <img src="assets/icons/shield-lock.svg" width="20" alt=""> Detecta DNI, NIE, CIF, IBAN, teléfonos y correos, también dichos en voz, y los oculta antes de compartir el acta con un cliente.
@@ -55,7 +56,7 @@ Este repositorio solo guarda los instaladores. El código no se publica.
 |:---:|:---:|
 | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/movil-grabar-oscuro.webp"><img src="assets/movil-grabar-claro.webp" alt="App de Android, pantalla Grabar: lo último, el botón de grabar, el origen del audio, el aviso a los presentes y la opción de traer un audio." width="280"></picture> | <img src="assets/movil-acta-claro.webp" alt="App de Android, acta de una reunión de demostración: la transcripción con su minuto, la pregunta de cuántas personas hablaron, el aviso de que se sube sola al PC y las pestañas de resumen, acta, tareas y notas." width="280"> |
 
-**Actualizaciones:** de momento, a mano. Instala el APK nuevo encima y se conservan tus actas.
+**Actualizaciones:** Acta descarga la versión nueva sola con wifi y te avisa con un botón, «Instalar». También puedes instalar el APK encima: se conservan tus actas.
 
 ## Qué no hace
 
@@ -67,7 +68,8 @@ Este repositorio solo guarda los instaladores. El código no se publica.
 ## Qué hace con la red
 
 - Comprueba actualizaciones cada 6 horas.
-- Descarga los modelos la primera vez y, si lo activas, los del dictado y los del resumen.
+- Descarga los modelos que elijas, la primera vez o cuando los añadas en Ajustes.
+- Si añades un calendario por enlace, lo consulta en esa dirección y en ninguna otra.
 - Nada más. El audio y el texto no salen del equipo; la transcripción, los hablantes y el resumen corren en modelos locales.
 
 Los puertos que abre (móvil, API local, réplica de lectura) vienen apagados de fábrica.
