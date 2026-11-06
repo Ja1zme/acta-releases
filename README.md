@@ -1,93 +1,113 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="logo-horizontal-dark.png">
-  <img src="logo-horizontal-light.png" alt="Acta" width="320">
-</picture>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/cabecera-oscuro.webp"><img src="assets/graficos/cabecera-claro.webp" width="800" alt="Acta, para grabar y transcribir reuniones en local: la pantalla Grabando con el anillo de voz, el tiempo, los medidores del micrófono y del sistema y el texto provisional de la transcripción"></picture></p>
 
-# Acta: descargas
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/chip-local-oscuro.webp"><img src="assets/graficos/chip-local-claro.webp" width="183" alt="100 % local"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/chip-cuentas-oscuro.webp"><img src="assets/graficos/chip-cuentas-claro.webp" width="185" alt="Sin cuentas"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/chip-nube-oscuro.webp"><img src="assets/graficos/chip-nube-claro.webp" width="157" alt="Sin nube"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/chip-windows-oscuro.webp"><img src="assets/graficos/chip-windows-claro.webp" width="227" alt="Windows 10 y 11"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/chip-android-oscuro.webp"><img src="assets/graficos/chip-android-claro.webp" width="179" alt="Android 7+"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/chip-firma-oscuro.webp"><img src="assets/graficos/chip-firma-claro.webp" width="309" alt="Firma de actualizaciones"></picture>
+</p>
 
-Grabar y transcribir reuniones en local, en **Windows** y en **Android**: eso hace Acta. Vive en la bandeja, detecta la llamada, transcribe, separa a quién habla y deja el acta con el resumen, las decisiones y las tareas. El audio no sale de tu ordenador y no hay cuentas ni nube.
+<p align="center">
+<a href="https://github.com/Ja1zme/acta-releases/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/boton-windows-oscuro.webp"><img src="assets/graficos/boton-windows-claro.webp" width="420" alt="Descargar Acta para Windows: instalador .exe de unos 32 MB"></picture></a>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hoy-oscuro.webp">
-  <img src="assets/hoy-claro.webp" alt="Página Hoy de Acta en tema claro, con datos de demostración: la próxima reunión, la última acta, las tareas pendientes y las propuestas de asignación." width="860">
-</picture>
+<p align="center">
+<a href="https://github.com/Ja1zme/acta-releases/releases/tag/movil-v0.4.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/boton-android-oscuro.webp"><img src="assets/graficos/boton-android-claro.webp" width="420" alt="Descargar Acta para Android: APK de 45,3 MB, versión 0.4.0"></picture></a>
+</p>
 
-Capturas de la demostración, con datos inventados. La franja superior de cada una lo dice.
+## Cómo funciona
 
-## Descargar
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/pasos-oscuro.webp"><img src="assets/graficos/pasos-claro.webp" width="440" alt="Cómo funciona Acta en cuatro pasos: la llamada empieza, graba sola a los 10 segundos, transcribe y separa las voces en local, y deja el acta con resumen, acuerdos y tareas"></picture></p>
 
-- <img src="assets/icons/brand-windows.svg" width="20" alt=""> **Windows:** `Acta_x.y.z_x64-setup.exe` de la [última versión](https://github.com/Ja1zme/acta-releases/releases/latest).
-- <img src="assets/icons/brand-android.svg" width="20" alt=""> **Android:** `Acta-x.y.z-arm64-v8a.apk` de las versiones que empiezan por `movil-v`, en [Releases](https://github.com/Ja1zme/acta-releases/releases). La guía de instalación va adjunta en cada una.
+## Funciones
 
-Este repositorio solo guarda los instaladores. El código no se publica.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-grabar-oscuro.webp"><img src="assets/graficos/f-grabar-claro.webp" width="440" alt="Grabar sola: Acta detecta la llamada y empieza sin pulsar nada"></picture></p>
 
-## Qué hace
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-voces-oscuro.webp"><img src="assets/graficos/f-voces-claro.webp" width="440" alt="Quién habla: separa las voces, también con un solo micrófono"></picture></p>
 
-- <img src="assets/icons/microphone.svg" width="20" alt=""> Graba solo. Detecta la llamada en Teams, Meet, Zoom, Webex, Slack y otras apps, y empieza a los 10 segundos de que la app use el micrófono.
-- <img src="assets/icons/users.svg" width="20" alt=""> Separa a los hablantes, también en una sala con un solo micrófono, y aprende la voz de cada persona cuando le pones nombre.
-- <img src="assets/icons/file-text.svg" width="20" alt=""> Deja el acta con el resumen, los acuerdos, los puntos clave, las preguntas abiertas y las tareas con responsable y plazo. Cada cita enlaza con el minuto en que se dijo.
-- <img src="assets/icons/device-desktop.svg" width="20" alt=""> Graba la pantalla con zooms que siguen al ratón, transcribe, pone subtítulos y deja recortar lo que sobra, para hacer un tutorial sin editor aparte.
-- <img src="assets/icons/keyboard.svg" width="20" alt=""> Dicta en cualquier aplicación con un atajo, con un modelo de voz local.
-- <img src="assets/icons/device-mobile.svg" width="20" alt=""> El móvil graba con la pantalla apagada, transcribe en el teléfono y se empareja con el PC por la red local.
-- <img src="assets/icons/shield-lock.svg" width="20" alt=""> Detecta DNI, NIE, CIF, IBAN, teléfonos y correos, también dichos en voz, y los oculta antes de compartir el acta con un cliente.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-acta-oscuro.webp"><img src="assets/graficos/f-acta-claro.webp" width="440" alt="El acta: resumen, acuerdos y tareas con su minuto"></picture></p>
 
-<img src="assets/acta-claro.webp" alt="Acta de una reunión con datos de demostración: resumen, acuerdos, puntos clave, preguntas abiertas, temas y tareas con su minuto." width="860">
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-preguntar-oscuro.webp"><img src="assets/graficos/f-preguntar-claro.webp" width="440" alt="Preguntar: responde con la frase y el minuto exactos"></picture></p>
 
-<img src="assets/flujo.gif" alt="Secuencia con datos de demostración: la pantalla Grabando con el nivel del micrófono y del sistema, la biblioteca de reuniones y el acta." width="720">
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-dictar-oscuro.webp"><img src="assets/graficos/f-dictar-claro.webp" width="440" alt="Dictar: habla y escribe en cualquier aplicación con un atajo"></picture></p>
 
-## Instalar en Windows
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-pantalla-oscuro.webp"><img src="assets/graficos/f-pantalla-claro.webp" width="440" alt="Grabar la pantalla: vídeo con zooms, subtítulos y cortes"></picture></p>
 
-1. Descarga el `.exe` y ábrelo.
-2. Windows puede avisar de que el instalador no es una aplicación conocida: no lleva certificado de Windows. Es lo esperado. Pulsa «Más información» y «Ejecutar de todas formas».
-3. Abre Acta una vez. La bienvenida descarga el motor de transcripción (varios GB, solo la primera vez) y prueba el micrófono. Después se queda en la bandeja.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-calendario-oscuro.webp"><img src="assets/graficos/f-calendario-claro.webp" width="440" alt="Calendario: ve tus citas y graba desde la que toca"></picture></p>
 
-**Pide:** Windows 10 (21H2 o posterior) u 11, de 64 bits. Con una tarjeta NVIDIA usa la gráfica; sin ella, el procesador. En disco, unos 5,3 GB sin GPU y unos 9,2 GB con una RTX, sin los modelos de resumen y de pantalla, que se añaden al terminar la primera reunión.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-movil-oscuro.webp"><img src="assets/graficos/f-movil-claro.webp" width="440" alt="Móvil: graba con la pantalla apagada y se une al PC"></picture></p>
 
-**Actualizaciones:** Acta lee aquí `latest.json` y se actualiza sola cuando no hay nada grabándose ni procesándose.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-privacidad-oscuro.webp"><img src="assets/graficos/f-privacidad-claro.webp" width="440" alt="Privacidad: tapa DNI, IBAN y correos antes de compartir"></picture></p>
 
-## Instalar en Android
+## Capturas
 
-1. Descarga el APK en el teléfono y ábrelo. Android pedirá permiso para instalar una app de fuera de la tienda.
-2. Sigue la guía `INSTALAR-ANDROID.md` que acompaña a la versión. Empieza por el PC: sin Acta para Windows 0.9.0 o posterior no hay emparejamiento.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capturas/hoy-oscuro.webp"><img src="assets/capturas/hoy-claro.webp" width="900" alt="Pantalla Hoy de Acta en Windows, con datos de demostración: la próxima reunión, la última acta, las tareas pendientes y las propuestas de asignación"></picture><br><sub>Hoy</sub></p>
 
-**Pide:** Android 7 o posterior, de 64 bits.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capturas/acta-oscuro.webp"><img src="assets/capturas/acta-claro.webp" width="900" alt="El acta de una reunión en Windows, con datos de demostración: resumen, acuerdos, puntos clave, preguntas abiertas y tareas con su minuto"></picture><br><sub>El acta</sub></p>
 
-| Grabar |
-|:---:|
-| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/movil-grabar-oscuro.webp"><img src="assets/movil-grabar-claro.webp" alt="App de Android, pantalla Grabar: lo último, el botón de grabar, el origen del audio, el aviso a los presentes y la opción de traer un audio." width="280"></picture> |
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capturas/pantalla-oscuro.webp"><img src="assets/capturas/pantalla-claro.webp" width="900" alt="Grabar la pantalla en Windows, con datos de demostración: el vídeo, los subtítulos, los zooms y los cortes en la línea de tiempo"></picture><br><sub>Grabar la pantalla</sub></p>
 
-**Actualizaciones:** Acta descarga la versión nueva sola con wifi y te avisa con un botón, «Instalar». También puedes instalar el APK encima: se conservan tus actas.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capturas/calendario-oscuro.webp"><img src="assets/capturas/calendario-claro.webp" width="900" alt="El calendario de Acta en Windows, con datos de demostración: la agenda del día y de los próximos días, y qué reuniones ya están grabadas"></picture><br><sub>Calendario</sub></p>
 
-## Qué no hace
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capturas/bienvenida-oscuro.webp"><img src="assets/capturas/bienvenida-claro.webp" width="900" alt="La bienvenida de Acta en Windows: elegir qué instalar y cuánto ocupa en disco antes de descargar los modelos"></picture><br><sub>Bienvenida</sub></p>
 
-- No hay versión para Mac ni para Linux, y la app del iPhone no se ha compilado ni probado: sin un Mac no se puede firmar.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/capturas/movil-oscuro.webp"><img src="assets/capturas/movil-claro.webp" width="280" alt="La app de Android: la pantalla Grabar, con el botón de grabar, lo último, el origen del audio y la opción de traer un audio"></picture><br><sub>Móvil</sub></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/flujo-oscuro.gif"><img src="assets/flujo-claro.gif" width="720" alt="Secuencia de Acta, con datos de demostración: de grabar al acta, pasando por la biblioteca de reuniones"></picture><br><sub>De grabar al acta</sub></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pantalla-oscuro.gif"><img src="assets/pantalla-claro.gif" width="720" alt="Secuencia de Acta, con datos de demostración: de elegir la ventana que se graba al vídeo editado con subtítulos y zooms"></picture><br><sub>De la ventana al vídeo</sub></p>
+
+## Privacidad
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/privacidad-oscuro.webp"><img src="assets/graficos/privacidad-claro.webp" width="440" alt="Privacidad en Acta: el audio, la transcripción, el acta y los modelos se quedan en tu equipo; la red se usa solo para comprobar actualizaciones, bajar modelos y leer un calendario por enlace"></picture></p>
+
+## Instalar
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/instalar-windows-oscuro.webp"><img src="assets/graficos/instalar-windows-claro.webp" width="440" alt="Instalar Acta en Windows en tres pasos: descargar el .exe, pasar el aviso de Windows y abrirla para que baje el motor y pruebe el micrófono"></picture></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/instalar-android-oscuro.webp"><img src="assets/graficos/instalar-android-claro.webp" width="440" alt="Instalar Acta en Android en tres pasos: descargar el APK, aceptar la instalación de fuera de la tienda y emparejar antes con el PC"></picture></p>
+
+## Requisitos
+
+|  | Windows | Android |
+|:--|:--|:--|
+| Sistema | 10 (21H2 o posterior) u 11, 64 bits | 7 o posterior, 64 bits |
+| Disco | 5,3 GB, o 9,2 GB con una RTX | Modelo de voz: 207 o 670 MB |
+| Gráfica | NVIDIA con CUDA, opcional | |
+
+Este repositorio solo guarda los instaladores.
+
+<details>
+<summary>Qué no hace</summary>
+
+- No hay versión para Mac ni para Linux. La app del iPhone no se ha compilado ni probado: sin un Mac no se puede firmar.
 - No hay nube: ni colaboración en línea, ni enlace para compartir, ni cuentas de ningún tipo.
 - No graba las llamadas del móvil ni las de WhatsApp o Teams: Android no lo permite a una app normal. Acta abre la grabadora del sistema y trae la grabación.
-- El instalador de Windows no está firmado con un certificado de Windows. La firma que trae es la de las actualizaciones, la que comprueba cada copia antes de actualizarse.
+- El instalador de Windows no lleva certificado de Windows. La firma que trae es la de las actualizaciones, la que comprueba cada copia antes de actualizarse.
+- El código no se publica.
 
-## Qué hace con la red
+</details>
 
-- Comprueba actualizaciones cada 6 horas.
-- Descarga los modelos que elijas, la primera vez o cuando los añadas en Ajustes.
-- Si añades un calendario por enlace, lo consulta en esa dirección y en ninguna otra.
-- Nada más. El audio y el texto no salen del equipo; la transcripción, los hablantes y el resumen corren en modelos locales.
-
-Los puertos que abre (móvil, API local, réplica de lectura) vienen apagados de fábrica.
-
-## Comprobar lo que descargas
+<details>
+<summary>Comprobar la huella</summary>
 
 GitHub muestra la huella SHA-256 de cada fichero junto a su enlace (`sha256:…`). Compárala con la del fichero que bajaste antes de instalar. En Windows:
 
 ```text
-certutil -hashfile Acta_x.y.z_x64-setup.exe SHA256
+certutil -hashfile Acta_0.10.1_x64-setup.exe SHA256
 ```
 
-En Android, la huella del APK y la del certificado de firma van en las notas de cada versión.
+En Android, la huella del APK y la del certificado de firma van en las notas de cada versión. El certificado del móvil es el mismo desde la 0.2.6, así que la 0.4.0 se instala encima sin desinstalar.
 
-## Canal de pruebas
+</details>
+
+<details>
+<summary>Canal de pruebas</summary>
 
 La etiqueta `pruebas` guarda una versión de prueba con su `latest.json`. Se elige en Ajustes, «Apariencia», «Canal de actualizaciones». Acta no baja de versión al volver a Estable.
 
-## Aviso legal
+</details>
+
+<details>
+<summary>Aviso legal</summary>
 
 Grabar una conversación en la que participas es lícito en España, pero tratar la voz de otras personas son datos personales. Avisa a los participantes de que la reunión se graba y se transcribe. Acta trae un aviso listo para copiar en el chat.
+
+</details>
