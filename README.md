@@ -30,9 +30,9 @@
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-pantalla-oscuro.webp"><img src="assets/graficos/f-pantalla-claro.webp" width="440" alt="Grabar la pantalla: vídeo con zooms, subtítulos y cortes"></picture></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-calendario-oscuro.webp"><img src="assets/graficos/f-calendario-claro.webp" width="440" alt="Calendario: ve tus citas y graba desde la que toca"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-calendario-oscuro.webp"><img src="assets/graficos/f-calendario-claro.webp" width="440" alt="Calendario: ve tus citas y qué reuniones ya están grabadas"></picture></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-movil-oscuro.webp"><img src="assets/graficos/f-movil-claro.webp" width="440" alt="Móvil: graba con la pantalla apagada y se une al PC"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-movil-oscuro.webp"><img src="assets/graficos/f-movil-claro.webp" width="440" alt="Móvil: graba con la pantalla apagada y se empareja con el PC"></picture></p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/graficos/f-privacidad-oscuro.webp"><img src="assets/graficos/f-privacidad-claro.webp" width="440" alt="Privacidad: tapa DNI, IBAN y correos antes de compartir"></picture></p>
 
@@ -66,11 +66,10 @@
 
 ## Requisitos
 
-|  | Windows | Android |
-|:--|:--|:--|
-| Sistema | 10 (21H2 o posterior) u 11, 64 bits | 7 o posterior, 64 bits |
-| Disco | 5,3 GB, o 9,2 GB con una RTX | Modelo de voz: 207 o 670 MB |
-| Gráfica | NVIDIA con CUDA, opcional | |
+| Plataforma | Requisitos |
+|:--|:--|
+| **Windows** | 10 (21H2 o posterior) u 11, de 64 bits. En disco, 5,3 GB, o 9,2 GB con una RTX, sin los modelos de resumen y pantalla. NVIDIA opcional; sin ella, el procesador. |
+| **Android** | 7 o posterior, de 64 bits. El modelo de voz ocupa 207 MB o 670 MB, según el que elijas. |
 
 Este repositorio solo guarda los instaladores.
 
@@ -94,7 +93,7 @@ GitHub muestra la huella SHA-256 de cada fichero junto a su enlace (`sha256:…`
 certutil -hashfile Acta_0.10.1_x64-setup.exe SHA256
 ```
 
-En Android, la huella del APK y la del certificado de firma van en las notas de cada versión. El certificado del móvil es el mismo desde la 0.2.6, así que la 0.4.0 se instala encima sin desinstalar.
+En Android, la huella del APK y la del certificado de firma van en las notas de cada versión. El certificado del móvil es el mismo desde la 0.2.6, así que la 0.4.0 se instala encima sin desinstalar y sin perder las actas.
 
 </details>
 
