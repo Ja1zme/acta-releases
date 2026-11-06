@@ -52,9 +52,9 @@ Este repositorio solo guarda los instaladores. El código no se publica.
 
 **Pide:** Android 7 o posterior, de 64 bits.
 
-| Grabar | El acta en el teléfono |
-|:---:|:---:|
-| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/movil-grabar-oscuro.webp"><img src="assets/movil-grabar-claro.webp" alt="App de Android, pantalla Grabar: lo último, el botón de grabar, el origen del audio, el aviso a los presentes y la opción de traer un audio." width="280"></picture> | <img src="assets/movil-acta-claro.webp" alt="App de Android, acta de una reunión de demostración: la transcripción con su minuto, la pregunta de cuántas personas hablaron, el aviso de que se sube sola al PC y las pestañas de resumen, acta, tareas y notas." width="280"> |
+| Grabar |
+|:---:|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="assets/movil-grabar-oscuro.webp"><img src="assets/movil-grabar-claro.webp" alt="App de Android, pantalla Grabar: lo último, el botón de grabar, el origen del audio, el aviso a los presentes y la opción de traer un audio." width="280"></picture> |
 
 **Actualizaciones:** Acta descarga la versión nueva sola con wifi y te avisa con un botón, «Instalar». También puedes instalar el APK encima: se conservan tus actas.
 
